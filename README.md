@@ -640,11 +640,14 @@ If you find this repo useful, please cite:
 
 
 ```
-@article{hu2025owl,
-  title={Owl: Optimized workforce learning for general multi-agent assistance in real-world task automation},
-  author={Hu, Mengkang and Zhou, Yuhang and Fan, Wendong and Nie, Yuzhou and Xia, Bowei and Sun, Tao and Ye, Ziyu and Jin, Zhaoxuan and Li, Yingru and Chen, Qiguang and others},
-  journal={arXiv preprint arXiv:2505.23885},
-  year={2025}
+@misc{hu2025owl,
+      title={OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation}, 
+      author={Mengkang Hu and Yuhang Zhou and Wendong Fan and Yuzhou Nie and Bowei Xia and Tao Sun and Ziyu Ye and Zhaoxuan Jin and Yingru Li and Qiguang Chen and Zeyu Zhang and Yifeng Wang and Qianshuo Ye and Bernard Ghanem and Ping Luo and Guohao Li},
+      year={2025},
+      eprint={2505.23885},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2505.23885}, 
 }
 ```
 
