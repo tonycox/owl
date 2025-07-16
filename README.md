@@ -109,6 +109,8 @@ Our vision is to revolutionize how AI agents collaborate to solve real-world tas
 - [🤝 Contributing](#-contributing)
 - [🔥 Community](#-community)
 - [❓ FAQ](#-faq)
+  - [General Questions](#general-questions)
+  - [Experiment Questions](#experiment-questions)
 - [📚 Exploring CAMEL Dependency](#-exploring-camel-dependency)
   - [Accessing CAMEL Source Code](#accessing-camel-source-code)
 - [⭐ Star History](#-star-history)
