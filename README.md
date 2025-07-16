@@ -105,7 +105,6 @@ Our vision is to revolutionize how AI agents collaborate to solve real-world tas
 - [🧪 Experiments](#-experiments)
 - [⏱️ Future Plans](#️-future-plans)
 - [📄 License](#-license)
-- [🖊️ Cite](#️-cite)
 - [🤝 Contributing](#-contributing)
 - [🔥 Community](#-community)
 - [❓ FAQ](#-faq)
@@ -113,6 +112,7 @@ Our vision is to revolutionize how AI agents collaborate to solve real-world tas
   - [Experiment Questions](#experiment-questions)
 - [📚 Exploring CAMEL Dependency](#-exploring-camel-dependency)
   - [Accessing CAMEL Source Code](#accessing-camel-source-code)
+- [🖊️ Cite](#️-cite)
 - [⭐ Star History](#-star-history)
 
 # 🔥 News
@@ -636,23 +636,6 @@ We're continuously working to improve OWL. Here's what's on our roadmap:
 
 The source code is licensed under Apache 2.0.
 
-# 🖊️ Cite
-
-If you find this repo useful, please cite:
-
-
-```
-@misc{hu2025owl,
-      title={OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation}, 
-      author={Mengkang Hu and Yuhang Zhou and Wendong Fan and Yuzhou Nie and Bowei Xia and Tao Sun and Ziyu Ye and Zhaoxuan Jin and Yingru Li and Qiguang Chen and Zeyu Zhang and Yifeng Wang and Qianshuo Ye and Bernard Ghanem and Ping Luo and Guohao Li},
-      year={2025},
-      eprint={2505.23885},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2505.23885}, 
-}
-```
-
 # 🤝 Contributing
 
 We welcome contributions from the community! Here's how you can help:
@@ -717,6 +700,23 @@ OWL is built on top of the [CAMEL](https://github.com/camel-ai/camel) Framework,
 # Clone the CAMEL repository
 git clone https://github.com/camel-ai/camel.git
 cd camel
+```
+
+# 🖊️ Cite
+
+If you find this repo useful, please cite:
+
+
+```
+@misc{hu2025owl,
+      title={OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation}, 
+      author={Mengkang Hu and Yuhang Zhou and Wendong Fan and Yuzhou Nie and Bowei Xia and Tao Sun and Ziyu Ye and Zhaoxuan Jin and Yingru Li and Qiguang Chen and Zeyu Zhang and Yifeng Wang and Qianshuo Ye and Bernard Ghanem and Ping Luo and Guohao Li},
+      year={2025},
+      eprint={2505.23885},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2505.23885}, 
+}
 ```
 
 # ⭐ Star History
