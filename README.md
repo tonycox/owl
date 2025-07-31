@@ -21,6 +21,28 @@
 
 <hr>
 
+<div align="center" style="background-color: #e3f2fd; padding: 20px; border-radius: 15px; border: 3px solid #1976d2; margin: 25px 0;">
+  <h2 style="color: #1976d2; margin: 0 0 15px 0; font-size: 1.8em;">
+    🚀 <b>Introducing Eigent: The World's First Multi-Agent Workforce Desktop Application</b> 🚀
+  </h2>
+  <p style="font-size: 1.2em; margin: 10px 0; line-height: 1.6;">
+    <b>Eigent</b> empowers you to build, manage, and deploy a custom AI workforce that can turn your most complex workflows into automated tasks.
+  </p>
+  <p style="font-size: 1.1em; margin: 15px 0;">
+    ✨ <b>100% Open Source</b> • 🔧 <b>Fully Customizable</b> • 🔒 <b>Privacy-First</b> • ⚡ <b>Parallel Execution</b>
+  </p>
+  <p style="font-size: 1em; margin: 15px 0; font-style: italic;">
+    Built on CAMEL-AI's acclaimed open-source project, Eigent introduces a Multi-Agent Workforce that boosts productivity through parallel execution, customization, and privacy protection.
+  </p>
+  <div style="margin-top: 20px;">
+    <a href="https://github.com/eigent-ai/eigent" style="background-color: #d81b60; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; margin: 0 5px;">🔗 Visit Eigent Repo</a>
+    <a href="https://www.eigent.ai/" style="background-color: #1976d2; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; margin: 0 5px;">Learn More</a>
+    <a href="https://www.eigent.ai/download" style="background-color: #43a047; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; margin: 0 5px;">Get Started</a>
+  </div>
+</div>
+
+<hr>
+
 <div align="center">
 <h4 align="center">
 
@@ -63,6 +85,7 @@ Our vision is to revolutionize how AI agents collaborate to solve real-world tas
 # 📋 Table of Contents
 
 - [📋 Table of Contents](#-table-of-contents)
+- [🚀 Eigent: Multi-Agent Workforce Desktop Application](#-eigent-multi-agent-workforce-desktop-application)
 - [🔥 News](#-news)
 - [🎬 Demo Video](#-demo-video)
 - [✨️ Core Features](#️-core-features)
@@ -114,6 +137,45 @@ Our vision is to revolutionize how AI agents collaborate to solve real-world tas
   - [Accessing CAMEL Source Code](#accessing-camel-source-code)
 - [🖊️ Cite](#️-cite)
 - [⭐ Star History](#-star-history)
+
+# 🚀 Eigent: Multi-Agent Workforce Desktop Application
+
+<div align="center" style="background-color: #f5f5f5; padding: 20px; border-radius: 10px; margin: 20px 0;">
+
+**[Eigent](https://github.com/eigent-ai/eigent)** is revolutionizing the way we work with AI agents. As the world's first Multi-Agent Workforce desktop application, Eigent transforms complex workflows into automated, intelligent processes.
+
+### Why Eigent?
+
+- **🤖 Multi-Agent Collaboration**: Deploy multiple specialized AI agents that work together seamlessly
+- **🚀 Parallel Execution**: Boost productivity with agents that can work on multiple tasks simultaneously
+- **🎨 Full Customization**: Build and configure your AI workforce to match your specific needs
+- **🔒 Privacy-First Design**: Your data stays on your machine - no cloud dependencies required
+- **💯 100% Open Source**: Complete transparency and community-driven development
+
+### Key Capabilities
+
+- **Build Custom Workflows**: Design complex multi-step processes that agents can execute autonomously
+- **Manage AI Teams**: Orchestrate multiple agents with different specializations working in concert
+- **Deploy Instantly**: From idea to execution in minutes, not hours
+- **Monitor Progress**: Real-time visibility into agent activities and task completion
+
+### Use Cases
+
+- 📊 **Data Analysis**: Automate complex data processing and analysis workflows
+- 🔍 **Research**: Deploy agents to gather, synthesize, and report on information
+- 💻 **Development**: Accelerate coding tasks with AI-powered development teams
+- 📝 **Content Creation**: Generate, edit, and optimize content at scale
+- 🤝 **Business Automation**: Transform repetitive business processes into automated workflows
+
+### Get Started with Eigent
+
+Eigent is built on top of the OWL framework, leveraging CAMEL-AI's powerful multi-agent capabilities. 
+
+🔗 **[Visit the Eigent Repository](https://github.com/eigent-ai/eigent)** to explore the codebase, contribute, or learn more about building your own AI workforce.
+
+Follow our [installation guide](#️-installation) to start building your own AI workforce today!
+
+</div>
 
 # 🔥 News
 
