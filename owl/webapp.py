@@ -243,6 +243,7 @@ def get_latest_logs(max_lines=100, queue_source=None):
 # Dictionary containing module descriptions
 MODULE_DESCRIPTIONS = {
     "run": "Default mode: Using OpenAI model's default agent collaboration mode, suitable for most tasks.",
+    "run_litellm": "Using OpenAI model with minimal configuration to process tasks",
     "run_mini": "Using OpenAI model with minimal configuration to process tasks",
     "run_gemini": "Using Gemini model to process tasks",
     "run_claude": "Using Claude model to process tasks",
@@ -297,6 +298,10 @@ CHUNKR_API_KEY='Your_Key'
 # Firecrawl API (https://www.firecrawl.dev/)
 FIRECRAWL_API_KEY='Your_Key'
 #FIRECRAWL_API_URL="https://api.firecrawl.dev"
+
+# LiteLLM
+LITELLM_API_KEY=
+LITELLM_URL=
 """
 
 
