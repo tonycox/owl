@@ -1,0 +1,37 @@
+[project]
+name = "restful-owl"
+version = "0.1.0"
+description = "A modern Python API for AI Hackathon 2025 with Owl integration"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "camel-ai[owl]>=0.2.68",
+    "docx2markdown>=0.1.1",
+    "duckduckgo-search==8.1.1",
+    "fastapi>=0.116.1",
+    "firecrawl>=2.16.1",
+    "geopy>=2.4.1",
+    "googlemaps>=4.10.0",
+    "gradio>=5.38.0",
+    "langchain-community>=0.3.21",
+    "mcp-server-fetch>=2025.1.17",
+    "mcp-simple-arxiv>=0.2.2",
+    "mistralai>=1.9.2",
+    "pydantic>=2.11.7",
+    "pydantic-settings>=2.10.1",
+    "python-dotenv>=1.1.1",
+    "python-multipart>=0.0.20",
+    "uvicorn[standard]>=0.35.0",
+    "xmltodict>=0.14.2",
+]
+
+[dependency-groups]
+dev = [
+    "fastapi[standard]>=0.116.1",
+    "ruff>=0.12.4",
+]
+
+[tool.uv]
+override-dependencies = [
+    "duckduckgo-search==8.1.1",
+]
