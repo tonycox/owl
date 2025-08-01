@@ -29,7 +29,8 @@ class Settings(BaseSettings):
     CORS_ORIGINS: List[str] = Field(default=["*"], env="CORS_ORIGINS")
 
     # Tools
-    GEMINI_API_KEY: str = Field(default="", env="GEMINI_API_KEY")
+    LITELLM_API_KEY: str = Field(default="", env="LITELLM_API_KEY")
+    LITELLM_URL: str = Field(default="", env="LITELLM_URL")
     GOOGLE_API_KEY: str = Field(default="", env="GOOGLE_API_KEY")
 
     class Config:

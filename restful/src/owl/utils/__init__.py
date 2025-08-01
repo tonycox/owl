@@ -115,7 +115,7 @@ async def arun_society(
         """
     input_msg = society.init_chat(init_prompt)
     for _round in range(round_limit):
-        assistant_response, user_response = await society.astep(input_msg)
+        assistant_response, user_response = society.step(input_msg)
         # Check if usage info is available before accessing it
         if assistant_response.info.get("usage") and user_response.info.get("usage"):
             overall_prompt_token_count += assistant_response.info["usage"].get(

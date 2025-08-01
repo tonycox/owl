@@ -66,46 +66,60 @@ class OwlService:
     def setup(self):
         self.models = {
             "user": ModelFactory.create(
-                model_platform=ModelPlatformType.GEMINI,
+                url=settings.LITELLM_URL,
+                model_platform=ModelPlatformType.LITELLM,
                 model_type=ModelType.GEMINI_2_5_PRO,
                 model_config_dict={"temperature": 0},
-                api_key=settings.GEMINI_API_KEY,
+                api_key=settings.LITELLM_API_KEY,
+                custom_llm_provider="custom_openai"
             ),
             "assistant": ModelFactory.create(
-                model_platform=ModelPlatformType.GEMINI,
+                url=settings.LITELLM_URL,
+                model_platform=ModelPlatformType.LITELLM,
                 model_type=ModelType.GEMINI_2_5_PRO,
                 model_config_dict={"temperature": 0},
-                api_key=settings.GEMINI_API_KEY,
+                api_key=settings.LITELLM_API_KEY,
+                custom_llm_provider="custom_openai"
             ),
             "browsing": ModelFactory.create(
-                model_platform=ModelPlatformType.GEMINI,
+                url=settings.LITELLM_URL,
+                model_platform=ModelPlatformType.LITELLM,
                 model_type=ModelType.GEMINI_2_5_PRO,
                 model_config_dict={"temperature": 0},
-                api_key=settings.GEMINI_API_KEY,
+                api_key=settings.LITELLM_API_KEY,
+                custom_llm_provider="custom_openai"
             ),
             "planning": ModelFactory.create(
-                model_platform=ModelPlatformType.GEMINI,
+                url=settings.LITELLM_URL,
+                model_platform=ModelPlatformType.LITELLM,
                 model_type=ModelType.GEMINI_2_5_PRO,
                 model_config_dict={"temperature": 0},
-                api_key=settings.GEMINI_API_KEY,
+                api_key=settings.LITELLM_API_KEY,
+                custom_llm_provider="custom_openai"
             ),
             "video": ModelFactory.create(
-                model_platform=ModelPlatformType.GEMINI,
+                url=settings.LITELLM_URL,
+                model_platform=ModelPlatformType.LITELLM,
                 model_type=ModelType.GEMINI_2_5_PRO,
                 model_config_dict={"temperature": 0},
-                api_key=settings.GEMINI_API_KEY,
+                api_key=settings.LITELLM_API_KEY,
+                custom_llm_provider="custom_openai"
             ),
             "image": ModelFactory.create(
-                model_platform=ModelPlatformType.GEMINI,
+                url=settings.LITELLM_URL,
+                model_platform=ModelPlatformType.LITELLM,
                 model_type=ModelType.GEMINI_2_5_PRO,
                 model_config_dict={"temperature": 0},
-                api_key=settings.GEMINI_API_KEY,
+                api_key=settings.LITELLM_API_KEY,
+                custom_llm_provider="custom_openai"
             ),
             "document": ModelFactory.create(
-                model_platform=ModelPlatformType.GEMINI,
+                url=settings.LITELLM_URL,
+                model_platform=ModelPlatformType.LITELLM,
                 model_type=ModelType.GEMINI_2_5_PRO,
                 model_config_dict={"temperature": 0},
-                api_key=settings.GEMINI_API_KEY,
+                api_key=settings.LITELLM_API_KEY,
+                custom_llm_provider="custom_openai"
             ),
         }
         self.tools = [
@@ -115,7 +129,7 @@ class OwlService:
             # SearchToolkit().search_google, # google search api required
             SearchToolkit().search_wiki,
             SearchToolkit().search_bing,
-            *GoogleMapsToolkit().get_tools(),
+            # *GoogleMapsToolkit().get_tools(),
             *ExcelToolkit().get_tools(),
             *Crawl4AIToolkit().get_tools(),
             *TaskPlanningToolkit().get_tools(),
